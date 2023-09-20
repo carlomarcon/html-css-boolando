@@ -23,6 +23,42 @@ a {
   color: white;
 }
 
+/* etichette */
+.discount-div {
+  background-color: red;
+  display: inline-block;
+  position: absolute;
+  bottom: 25%;
+  left: 0;
+}
+
+.green-div {
+  background-color: green;
+  display: inline-block;
+  position: absolute;
+  bottom: 25%;
+  left: 15%;
+}
+
+.green-div6 {
+  background-color: green;
+  display: inline-block;
+  position: absolute;
+  bottom: 25%;
+  left: 0;
+}
+
+.like {
+  width: 1rem;
+  display: inline-block;
+  position: absolute;
+  top: 1%;
+  right: 0;
+  background-color: white;
+  text-align: center;
+
+}
+
 /* main */
 
 img {
@@ -61,3 +97,6 @@ img {
 span:nth-child(1) {
   color: black;
 }
+
+
+footer
