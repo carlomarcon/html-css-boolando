@@ -58,6 +58,10 @@ nav {
   text-align: center;
 }
 
+.like:hover {
+  background-color: red;
+}
+
 /* main */
 
 img {
