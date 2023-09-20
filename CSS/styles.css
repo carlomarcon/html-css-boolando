@@ -9,7 +9,7 @@ nav {
   justify-content: space-around;
   min-height: 6rem;
   background-color: orange;
-  padding: 1rem;
+  padding: 2rem;
   color: white;
 }
 
@@ -17,7 +17,7 @@ nav {
   width: 11%;
 }
 
-a {
+.starter a {
   text-decoration: none;
   margin-left: 1rem;
   color: white;
@@ -56,7 +56,6 @@ a {
   right: 0;
   background-color: white;
   text-align: center;
-
 }
 
 /* main */
@@ -98,5 +97,34 @@ span:nth-child(1) {
   color: black;
 }
 
+/* footer */
 
-footer
+footer {
+  height: 12rem;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(27, 26, 26);
+  color: white;
+  gap: 37rem;
+  padding-top: 4rem;
+  border-bottom: 4px solid white;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+  margin-right: 1rem;
+}
+
+h4,
+h5 {
+  margin-bottom: 1rem;
+}
