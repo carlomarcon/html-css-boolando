@@ -3,6 +3,27 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* HEADER */
+nav {
+  display: flex;
+  justify-content: space-around;
+  min-height: 6rem;
+  background-color: orange;
+  padding: 1rem;
+  color: white;
+}
+
+.logo {
+  width: 11%;
+}
+
+a {
+  text-decoration: none;
+  margin-left: 1rem;
+  color: white;
+}
+
+/* main */
 
 img {
   background-size: contain;
